@@ -1,0 +1,54 @@
+-Pro  ~/Codebase/shortpoint/e2e   master release/4.1.438 ✚ ● ?  protractor config/conf.js                                                                                        ✔  23  18:59:11
+[18:59:12] I/launcher - Running 1 instances of WebDriver
+[18:59:12] I/hosted - Using the selenium server at http://localhost:4444/wd/hub
+Feature: Download Functionality
+
+  Scenario: Verify Downloaded Package - Name -  Office365
+  ✔ Given I am on the Downloads page
+6.6.117.0
+  ✔ When I identify the current version of Office365
+  ✔ Then I open the download page of Office365
+  ✔ And I click the download button of Office365
+6.6.117.0
+  ✔ And I verify that the downloaded package has in its filename the same version number mentioned on the website
+
+  Scenario: Verify Downloaded Package - Name -  SharePoint 2016
+done
+  ✔ Given I am on the Downloads page
+6.4.10.2
+  ✔ When I identify the current version of SharePoint 2016
+  ✔ Then I open the download page of SharePoint 2016
+  ✔ And I click the download button of SharePoint 2016
+6.6.117.0
+  ✔ And I verify that the downloaded package has in its filename the same version number mentioned on the website
+
+  Scenario: Verify Downloaded Package - Name -  SharePoint 2019
+done
+  ✔ Given I am on the Downloads page
+6.6.117.0
+  ✔ When I identify the current version of SharePoint 2019
+  ✔ Then I open the download page of SharePoint 2019
+  ✔ And I click the download button of SharePoint 2019
+6.6.117.0
+  ✔ And I verify that the downloaded package has in its filename the same version number mentioned on the website
+
+  Scenario: Verify Downloaded Package - Name -  SharePoint 2013
+done
+  ✔ Given I am on the Downloads page
+6.4.10.2
+  ✔ When I identify the current version of SharePoint 2013
+  ✔ Then I open the download page of SharePoint 2013
+  ✔ And I click the download button of SharePoint 2013
+6.6.117.0
+6.6.117.0
+  ✔ And I verify that the downloaded package has in its filename the same version number mentioned on the website
+
+4 scenarios (4 passed)
+20 steps (20 passed)
+1m08.872s
+Cucumber HTML report ./html_reports/cucumber_report.html generated successfully.
+All tests completed.
+done
+[19:00:22] I/launcher - 0 instance(s) of WebDriver still running
+[19:00:22] I/launcher - chrome #01 passed
+ ganeshramamoorthy@Ganeshs-MacBook-Pro  ~/Codebase/shortpoint/e2e   master release/4.1.438 ✚ ● ? 
